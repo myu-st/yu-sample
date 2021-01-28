@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Poached eggs"
+author: "Marty Yu"
+date:   2021-01-27 13:09:58 -0800
+categories: Recipes
+---
+### Ingredients
+* 2 eggs
+* 1 tbsp white vinegar  
+
+**Note:** The vinegar helps the egg whites set and does not affect the flavor of the egg.
+
+---
+
+### Instructions
+1. Heat a 2-quart saucepan of water until it's barely boiling.
+2. Turn the heat to low and add vinegar.
+3. Crack the eggs into two small bowls.
+4. Stir the water with a wooden spoon to create a vortex.
+5. Slowly drop the egg from the bowl into the center of the vortex. The egg begins to set in a few seconds.
+6. Gently swirl the water again and repeat the drop with the second egg.
+7. After 2-3 minutes, when the yolks have firmed up but are still soft to the touch, remove the eggs with a slotted spoon and drain on paper towels.  
+
+If you're making poached eggs for eggs benedict, try this quick recipe for [Hollandaise sauce].
+
+
+[Hollandaise sauce]: https://www.simplyrecipes.com/recipes/easy_blender_hollandaise_sauce/

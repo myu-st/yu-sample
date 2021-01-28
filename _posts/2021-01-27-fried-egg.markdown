@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Fried eggs"
+author: "Marty Yu"
+date:   2021-01-27 13:09:58 -0800
+categories: Recipes
+---
+### Ingredients
+* 2 eggs
+* 5 ml neutral cooking oil
+* salt
+* pepper
+
+---
+
+### Instructions
+1. On a medium stove burner, heat up a nonstick or well-seasoned cast iron pan.
+2. Add oil and swirl to evenly coat the bottom of the pan.
+3. As the oil starts to shimmer, crack the eggs into the pan.  
+**Note:** If the eggs spatter, reduce the heat.
+4. When the egg whites have set (3-4 minutes), use a spatula to gently plate the eggs.
+5. Finish eggs with salt and pepper to taste.
+
+If you prefer eggs over easy, check out the recipe over at [Serious Eats].
+
+[Serious Eats]: https://www.seriouseats.com/recipes/2017/07/classic-over-easy-fried-eggs-recipe.html

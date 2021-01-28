@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Function: Find a champion"
+author: "Marty Yu"
+date:   2021-01-27 13:09:58 -0800
+categories: Functions
+---
+Use the `find_champion` function to identify champions from a list of players:
+{% highlight python %}
+champion_data = [
+ {
+ 'name': 'ahri',
+ 'role': 'mid lane',
+ 'origin': 'vastaya'
+ },
+ {
+ 'name': 'teemo',
+ 'role': 'top lane',
+ 'origin': 'bandle city'
+ },
+ {
+ 'name':'gangplank',
+ 'role': 'top lane',
+ 'origin': 'bilgewater'
+ },
+ {
+ 'name': 'sona',
+ 'role': 'support',
+ 'origin': 'ionia'
+ },
+ {
+ 'name': 'miss fortune',
+ 'role': 'marksman',
+ 'origin': 'bilgewater'
+ }
+]
+def find_champion(name=None, role=None, origin=None):
+ champion_suggestions = []
+ for champ in champion_data:
+  if name:
+    if champ['name'] == name:
+      return [champ]
+  if role:
+    if champ['role'] != role:
+      continue
+  if origin:
+    if champ['origin'] != origin:
+      continue
+  champion_suggestions.append(champ)
+ return champion_suggestions
+{% endhighlight %}
+
+The function compares players with champions from the `champion_data` list based on the following arguments:
+* `name`
+* `role`
+* `origin`  
+
+To be a champion, a player must match at least one of the following criteria:
+* the name of a champion from the `champion_data` list
+* both the origin _and_ role of a champion from the `champion_data` list
