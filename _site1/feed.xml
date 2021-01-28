@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-01-28T11:01:01-08:00</updated><id>/feed.xml</id><title type="html">Marty’s demo content</title><subtitle>This is a demonstration of markdown prowess.</subtitle><entry><title type="html">Soft-boiled eggs</title><link href="/recipes/2021/01/27/soft-boiled-eggs.html" rel="alternate" type="text/html" title="Soft-boiled eggs" /><published>2021-01-27T13:09:58-08:00</published><updated>2021-01-27T13:09:58-08:00</updated><id>/recipes/2021/01/27/soft-boiled-eggs</id><content type="html" xml:base="/recipes/2021/01/27/soft-boiled-eggs.html">&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 eggs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Place eggs in a small saucepan with cold water.&lt;/li&gt;
+  &lt;li&gt;Set the saucepan on medium-high heat until the water just starts to boil.&lt;/li&gt;
+  &lt;li&gt;Turn the heat down to a low simmer and set a timer for 3 minutes.&lt;/li&gt;
+  &lt;li&gt;After 3 minutes, remove the eggs with a slotted spoon and plunge in cold water to stop the cooking.&lt;/li&gt;
+  &lt;li&gt;Carefully crack and roll the eggs thoroughly before peeling.
+If you’re making poached eggs for eggs benedict, try this quick recipe for [Hollandaise sauce].&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Tip:&lt;/strong&gt; If you eat boiled eggs frequently, consider a $15 &lt;a href=&quot;https://www.amazon.com/Elite-Cuisine-EGC-007-Hard-Boiled-Auto-Shut/dp/B00F0RDRFS/&quot;&gt;egg steamer&lt;/a&gt;. If you buy &lt;em&gt;one&lt;/em&gt; single-use kitchen gadget, this is the one to get.&lt;/p&gt;</content><author><name>Marty Yu</name></author><category term="Recipes" /><summary type="html">Ingredients 2 eggs</summary></entry><entry><title type="html">Fried eggs</title><link href="/recipes/2021/01/27/fried-egg.html" rel="alternate" type="text/html" title="Fried eggs" /><published>2021-01-27T13:09:58-08:00</published><updated>2021-01-27T13:09:58-08:00</updated><id>/recipes/2021/01/27/fried-egg</id><content type="html" xml:base="/recipes/2021/01/27/fried-egg.html">&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 eggs&lt;/li&gt;
+  &lt;li&gt;5 ml neutral cooking oil&lt;/li&gt;
+  &lt;li&gt;salt&lt;/li&gt;
+  &lt;li&gt;pepper&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;On a medium stove burner, heat up a nonstick or well-seasoned cast iron pan.&lt;/li&gt;
+  &lt;li&gt;Add oil and swirl to evenly coat the bottom of the pan.&lt;/li&gt;
+  &lt;li&gt;As the oil starts to shimmer, crack the eggs into the pan.&lt;br /&gt;
+&lt;strong&gt;Note:&lt;/strong&gt; If the eggs spatter, reduce the heat.&lt;/li&gt;
+  &lt;li&gt;When the egg whites have set (3-4 minutes), use a spatula to gently plate the eggs.&lt;/li&gt;
+  &lt;li&gt;Finish eggs with salt and pepper to taste.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you prefer eggs over easy, check out the recipe over at &lt;a href=&quot;https://www.seriouseats.com/recipes/2017/07/classic-over-easy-fried-eggs-recipe.html&quot;&gt;Serious Eats&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marty Yu</name></author><category term="Recipes" /><summary type="html">Ingredients 2 eggs 5 ml neutral cooking oil salt pepper</summary></entry><entry><title type="html">Function: Find a champion</title><link href="/functions/2021/01/27/hero-code.html" rel="alternate" type="text/html" title="Function: Find a champion" /><published>2021-01-27T13:09:58-08:00</published><updated>2021-01-27T13:09:58-08:00</updated><id>/functions/2021/01/27/hero-code</id><content type="html" xml:base="/functions/2021/01/27/hero-code.html">&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find_champion&lt;/code&gt; function to identify champions from a list of players:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;champion_data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ahri'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'mid lane'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'vastaya'&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'teemo'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'top lane'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'bandle city'&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'gangplank'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'top lane'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'bilgewater'&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'sona'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'support'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'ionia'&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'miss fortune'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'marksman'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'bilgewater'&lt;/span&gt;
+ &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;find_champion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+ &lt;span class=&quot;n&quot;&gt;champion_suggestions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champion_data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'role'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;role&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;champion_suggestions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;champ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;champion_suggestions&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The function compares players with champions from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;champion_data&lt;/code&gt; list based on the following arguments:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;role&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;origin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be a champion, a player must match at least one of the following criteria:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;the name of a champion from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;champion_data&lt;/code&gt; list&lt;/li&gt;
+  &lt;li&gt;both the origin &lt;em&gt;and&lt;/em&gt; role of a champion from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;champion_data&lt;/code&gt; list&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Marty Yu</name></author><category term="Functions" /><summary type="html">Use the find_champion function to identify champions from a list of players: champion_data = [ { 'name': 'ahri', 'role': 'mid lane', 'origin': 'vastaya' }, { 'name': 'teemo', 'role': 'top lane', 'origin': 'bandle city' }, { 'name':'gangplank', 'role': 'top lane', 'origin': 'bilgewater' }, { 'name': 'sona', 'role': 'support', 'origin': 'ionia' }, { 'name': 'miss fortune', 'role': 'marksman', 'origin': 'bilgewater' } ] def find_champion(name=None, role=None, origin=None): champion_suggestions = [] for champ in champion_data: if name: if champ['name'] == name: return [champ] if role: if champ['role'] != role: continue if origin: if champ['origin'] != origin: continue champion_suggestions.append(champ) return champion_suggestions</summary></entry><entry><title type="html">Poached eggs</title><link href="/recipes/2021/01/27/poached.egg.html" rel="alternate" type="text/html" title="Poached eggs" /><published>2021-01-27T13:09:58-08:00</published><updated>2021-01-27T13:09:58-08:00</updated><id>/recipes/2021/01/27/poached.egg</id><content type="html" xml:base="/recipes/2021/01/27/poached.egg.html">&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;2 eggs&lt;/li&gt;
+  &lt;li&gt;1 tbsp white vinegar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The vinegar helps the egg whites set and does not affect the flavor of the egg.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Heat a 2-quart saucepan of water until it’s barely boiling.&lt;/li&gt;
+  &lt;li&gt;Turn the heat to low and add vinegar.&lt;/li&gt;
+  &lt;li&gt;Crack the eggs into two small bowls.&lt;/li&gt;
+  &lt;li&gt;Stir the water with a wooden spoon to create a vortex.&lt;/li&gt;
+  &lt;li&gt;Slowly drop the egg from the bowl into the center of the vortex. The egg begins to set in a few seconds.&lt;/li&gt;
+  &lt;li&gt;Gently swirl the water again and repeat the drop with the second egg.&lt;/li&gt;
+  &lt;li&gt;After 2-3 minutes, when the yolks have firmed up but are still soft to the touch, remove the eggs with a slotted spoon and drain on paper towels.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you’re making poached eggs for eggs benedict, try this quick recipe for &lt;a href=&quot;https://www.simplyrecipes.com/recipes/easy_blender_hollandaise_sauce/&quot;&gt;Hollandaise sauce&lt;/a&gt;.&lt;/p&gt;</content><author><name>Marty Yu</name></author><category term="Recipes" /><summary type="html">Ingredients 2 eggs 1 tbsp white vinegar</summary></entry></feed>
